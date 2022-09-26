@@ -20,11 +20,11 @@ while(x < 800):
         delay(0.01)
         
 while(y < 600):
-     clear_canvas_now()
-     grass.draw_now(400,30)
-     character.draw_now(800,y+90)
-     y = y + 2
-     delay(0.01)
+        clear_canvas_now()
+        grass.draw_now(400,30)
+        character.draw_now(800,y+90)
+        y = y + 2
+        delay(0.01)
 
 while(x > 0):
         clear_canvas_now()
@@ -34,11 +34,11 @@ while(x > 0):
         delay(0.01)
 
 while(y > 0):
-     clear_canvas_now()
-     grass.draw_now(400,30)
-     character.draw_now(0,y+90)
-     y = y - 2
-     delay(0.01)
+        clear_canvas_now()
+        grass.draw_now(400,30)
+        character.draw_now(0,y+90)
+        y = y - 2
+        delay(0.01)
 
 while(x > 0, y > 0):
         clear_canvas_now()
