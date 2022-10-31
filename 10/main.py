@@ -4,7 +4,7 @@ import logo_state
 
 pico2d.open_canvas()
 
-states = [logo_state, play_state]#모듈을 변수로 저장
+states = [logo_state, play_state] #모듈을 변수로 저장
 for state in states:
     state.enter() #초기화
 #게임루프
